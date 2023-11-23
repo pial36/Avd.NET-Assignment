@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1ba1f4e4a9440ce97f851d850da0198" Name="Diagram1">
+        <EntityTypeShape EntityType="ZeroHungerModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.History" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.Ngo" Width="1.5" PointX="5.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.Order" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.Request" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeroHungerModel.Restaurant" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="ZeroHungerModel.FK_Collections_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_Collections_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_History_Restaurants" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_Orders_Requests" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeroHungerModel.FK_Requests_Restaurants" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
